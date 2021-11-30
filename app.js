@@ -21,13 +21,3 @@ btn.addEventListener("click", function() {
 function getRandomNumber() {
     return Math.floor(Math.random() * colors.length);
 };
-
-const btn2 = document.getElementById("btn2");
-const img = document.getElementById("img")
-btn2.addEventListener("click", function() {
- 
-        img.src="eyes.jpeg";
-
-    
-    
-})
